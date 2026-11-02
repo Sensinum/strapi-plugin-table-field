@@ -1,3 +1,5 @@
+import type { Plugin } from '@strapi/strapi';
+
 /**
  * Application methods
  */
@@ -16,7 +18,7 @@ import policies from './policies';
 import routes from './routes';
 import services from './services';
 
-export default {
+const plugin: Partial<Plugin.Config.ServerObject> = {
   register,
   bootstrap,
   destroy,
@@ -28,3 +30,5 @@ export default {
   policies,
   middlewares,
 };
+
+export default plugin;

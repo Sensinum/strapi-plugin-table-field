@@ -10,6 +10,9 @@
   <a href="https://www.npmjs.org/package/@sensinum/strapi-table-field">
     <img src="https://img.shields.io/npm/dm/@sensinum/strapi-table-field.svg" alt="Monthly download on NPM" />
   </a>
+  <a href="https://github.com/Sensinum/strapi-plugin-table-field/actions/workflows/ci.yml">
+    <img src="https://github.com/Sensinum/strapi-plugin-table-field/actions/workflows/ci.yml/badge.svg" alt="CI" />
+  </a>
 </div>
 
 ---
@@ -129,9 +132,12 @@ When you query content with a table field, the data will be included in the resp
 
 ## 👨‍💻 Development & Testing
 
+- Install: `yarn install`
 - Build: `yarn build`
-- Test backend: `yarn test:server`
-- Test frontend: `yarn test:ts:front`
+- Verify plugin structure: `yarn verify`
+- Run tests: `yarn test:run`
+- Run tests with coverage: `yarn coverage`
+- Type checking: `yarn test:ts:front && yarn test:ts:back`
 - Watch mode: `yarn watch`
 
 ## 🔗 Links
@@ -140,13 +146,13 @@ When you query content with a table field, the data will be included in the resp
 
 ## 💬 Community support
 
-- [GitHub](https://github.com/VirtusLab-Open-Source/strapi-plugin-table-field) (Bug reports, contributions)
-  
-You can also used official support platform of Strapi, and search `[VirtusLab]` prefixed people (maintainers) 
+- [GitHub](https://github.com/Sensinum/strapi-plugin-table-field) (Bug reports, contributions)
+
+You can also use the official support platforms of Strapi:
 
 - [Discord](https://discord.strapi.io) (For live discussion with the Community and Strapi team)
 - [Community Forum](https://forum.strapi.io) (Questions and Discussions)
 
 ## 📄 License
 
-See the [MIT License](LICENSE) file for licensing information.
+[MIT License](LICENSE) Copyright (c) [Sensinum Sp. z o.o.](https://www.sensinum.com/).
