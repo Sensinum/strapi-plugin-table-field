@@ -10,6 +10,9 @@
   <a href="https://www.npmjs.org/package/@sensinum/strapi-table-field">
     <img src="https://img.shields.io/npm/dm/@sensinum/strapi-table-field.svg" alt="Monthly download on NPM" />
   </a>
+  <a href="https://github.com/Sensinum/strapi-plugin-table-field/actions/workflows/ci.yml">
+    <img src="https://github.com/Sensinum/strapi-plugin-table-field/actions/workflows/ci.yml/badge.svg" alt="CI" />
+  </a>
 </div>
 
 ---
@@ -47,7 +50,7 @@ A Strapi plugin that adds a **custom field** that handles dynamic creation and h
 ```bash
 npm install @sensinum/strapi-table-field@latest
 # or
-yarn add @sensinum/strapi-table-field@latest
+pnpm add @sensinum/strapi-table-field@latest
 ```
 
 After installation, the plugin will be automatically available in your Strapi admin panel.
@@ -129,10 +132,13 @@ When you query content with a table field, the data will be included in the resp
 
 ## 👨‍💻 Development & Testing
 
-- Build: `yarn build`
-- Test backend: `yarn test:server`
-- Test frontend: `yarn test:ts:front`
-- Watch mode: `yarn watch`
+- Install: `pnpm install`
+- Build: `pnpm build`
+- Verify plugin structure: `pnpm verify`
+- Run tests: `pnpm test:run`
+- Run tests with coverage: `pnpm coverage`
+- Type checking: `pnpm test:ts:front && pnpm test:ts:back`
+- Watch mode: `pnpm watch`
 
 ## 🔗 Links
 
@@ -140,13 +146,13 @@ When you query content with a table field, the data will be included in the resp
 
 ## 💬 Community support
 
-- [GitHub](https://github.com/VirtusLab-Open-Source/strapi-plugin-table-field) (Bug reports, contributions)
-  
-You can also used official support platform of Strapi, and search `[VirtusLab]` prefixed people (maintainers) 
+- [GitHub](https://github.com/Sensinum/strapi-plugin-table-field) (Bug reports, contributions)
+
+You can also use the official support platforms of Strapi:
 
 - [Discord](https://discord.strapi.io) (For live discussion with the Community and Strapi team)
 - [Community Forum](https://forum.strapi.io) (Questions and Discussions)
 
 ## 📄 License
 
-See the [MIT License](LICENSE) file for licensing information.
+[MIT License](LICENSE) Copyright (c) [Sensinum Sp. z o.o.](https://www.sensinum.com/).

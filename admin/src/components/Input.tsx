@@ -6,7 +6,7 @@ import { Trash, Plus } from '@strapi/icons';
 import { Box, Button, Flex, IconButton, TextInput, Typography } from '@strapi/design-system';
 
 import { getMessage } from '../utils';
-import type { TableColumn, TableRow } from '../types';
+import type { TableColumn, TableData, TableRow } from '../types';
 
 
 type InputProps = {
@@ -17,7 +17,7 @@ type InputProps = {
 
 const Input = forwardRef((props: InputProps) => {
   const { name, label, disabled } = props;
-  const field = useField(name);
+  const field = useField<TableData>(name);
   const { theme } = usePluginTheme();
 
   const [columns, setColumns] = useState(field.value?.columns || [{ label: '', type: 'text', required: false }]);

@@ -36,10 +36,10 @@ We use [GitHub Issues](https://github.com/strapi-community/cloudinary-media-libr
 Before you start contributing, ensure you have:
 
 * [Node.js](https://nodejs.org/en/) v18.x.x or higher
-* [Yarn](https://yarnpkg.com/en/) v1.22.19 or higher
+* [pnpm](https://pnpm.io/) v10 or higher
 * Basic knowledge of Git
 
-> **Note:** This project uses Yarn as the package manager. Please use Yarn for all package installations.
+> **Note:** This project uses pnpm as the package manager. Please use pnpm for all package installations.
 
 ## 🔄 Pull Request Process
 
@@ -49,11 +49,11 @@ Our team will review your pull request and either merge it, request changes, or 
 
 1. **Setup Your Environment**
    - Fork the repository and create your branch from `main`
-   - Run `yarn install` in the repository root
-   - Run `yarn prepare` in the repository root to install `pre-commit` hooks
+   - Run `pnpm install` in the repository root
+   - Run `pnpm prepare` in the repository root to install `pre-commit` hooks
    - For bug fixes or new features, add tests and link the corresponding issue
-   - Ensure all tests pass: `yarn test:server`
-   - Verify code quality: `yarn lint`
+   - Ensure all tests pass: `pnpm test:run`
+   - Verify code quality: `pnpm lint`
 
 2. **Documentation**
    - Update the [README.md](README.md) with any interface changes
