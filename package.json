@@ -51,12 +51,12 @@
   ],
   "husky": {
     "hooks": {
-      "pre-commit": "pnpm test:run"
+      "pre-commit": "yarn test:run"
     }
   },
   "scripts": {
     "prepare": "husky install",
-    "build": "pnpm clean && strapi-plugin build --minify",
+    "build": "yarn clean && strapi-plugin build --minify",
     "clean": "rm -rf dist",
     "watch": "strapi-plugin watch",
     "watch:link": "strapi-plugin watch:link",
@@ -100,8 +100,5 @@
   "engines": {
     "node": ">=22.0.0 <=26.x.x",
     "npm": ">=6.0.0"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": ["@swc/core", "esbuild"]
   }
 }

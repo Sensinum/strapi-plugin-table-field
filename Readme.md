@@ -50,7 +50,7 @@ A Strapi plugin that adds a **custom field** that handles dynamic creation and h
 ```bash
 npm install @sensinum/strapi-table-field@latest
 # or
-pnpm add @sensinum/strapi-table-field@latest
+yarn add @sensinum/strapi-table-field@latest
 ```
 
 After installation, the plugin will be automatically available in your Strapi admin panel.
@@ -132,13 +132,13 @@ When you query content with a table field, the data will be included in the resp
 
 ## 👨‍💻 Development & Testing
 
-- Install: `pnpm install`
-- Build: `pnpm build`
-- Verify plugin structure: `pnpm verify`
-- Run tests: `pnpm test:run`
-- Run tests with coverage: `pnpm coverage`
-- Type checking: `pnpm test:ts:front && pnpm test:ts:back`
-- Watch mode: `pnpm watch`
+- Install: `yarn install`
+- Build: `yarn build`
+- Verify plugin structure: `yarn verify`
+- Run tests: `yarn test:run`
+- Run tests with coverage: `yarn coverage`
+- Type checking: `yarn test:ts:front && yarn test:ts:back`
+- Watch mode: `yarn watch`
 
 ## 🔗 Links
 
