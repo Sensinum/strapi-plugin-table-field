@@ -1,6 +1,6 @@
 {
   "name": "@sensinum/strapi-table-field",
-  "version": "1.0.2",
+  "version": "1.0.3-beta.1",
   "description": "Table Custom Field for Strapi",
   "keywords": [
     "strapi",
