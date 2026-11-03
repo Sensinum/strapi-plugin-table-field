@@ -49,11 +49,6 @@
   "files": [
     "dist"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn test:run"
-    }
-  },
   "scripts": {
     "prepare": "husky install",
     "build": "yarn clean && strapi-plugin build --minify",
