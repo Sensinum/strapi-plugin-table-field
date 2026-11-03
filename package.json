@@ -50,7 +50,7 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "build": "yarn clean && strapi-plugin build --minify",
     "clean": "rm -rf dist",
     "watch": "strapi-plugin watch",
@@ -75,7 +75,7 @@
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitest/coverage-v8": "^4.1.12",
-    "husky": "7.0.4",
+    "husky": "^9.1.7",
     "prettier": "^3.5.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
